@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Countries</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Playfair+Display:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <h1>Countries</h1>
+    </div>
+    <div class="wrapper">
+        <div class="inner">
+            <label for="all"> All</label>
+            <input type="radio" checked="true" name="type" id="all">
+        </div>
+        <div class="inner">
+            <label for="search"> Search</label>
+            <input type="radio" name="type" id="search">
+        </div>
+    </div>
+    <div class="search-wrapper hidden">
+        <input type="text" class="searchInput" id="searchInput" placeholder="Search...">
+        <button class="submit">Search</button>
+        <div class="result hidden">
+            <img src="" class="flags" alt="">
+            <h3 class="name"></h3>
+            <h4 class="capital"></h4>
+            <p class="language"></p>
+            <p class="currency"></p>
+            <a class="maps" href="" target="_blank">look on the map</a>
+        </div>
+    </div>
+    <div class="row">
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

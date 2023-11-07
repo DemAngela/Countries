@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../assets/wallpaperbetter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #c7bcd2;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.row  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+
+    background-color: #c7bcd2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #c7bcd2;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchInput {
+    width: 300px;
+    padding: 6px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.submit {
+    width: 300px;
+    padding: 6px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    background-color: #c7bcd2;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.name {
+    text-align: center;
+    font-size: 22px;
+}
+
+.capital {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    background-color: #c7bcd2;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
